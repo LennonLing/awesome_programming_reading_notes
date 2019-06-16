@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YDViewController">
+            <connections>
+                <outlet property="mTableView" destination="2xH-sw-P95" id="hPL-Gh-toK"/>
+                <outlet property="searchBar" destination="qdQ-F9-evW" id="enh-Mv-u8q"/>
+                <outlet property="searchDisplayController" destination="DrN-By-CNX" id="e7l-io-Tt3"/>
+                <outlet property="view" destination="6" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2xH-sw-P95">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="RfH-lz-ghe"/>
+                        <outlet property="delegate" destination="-1" id="ECu-wN-LmP"/>
+                    </connections>
+                </tableView>
+                <searchBar contentMode="redraw" id="qdQ-F9-evW">
+                    <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="9Aw-ad-y8s"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <searchDisplayController id="DrN-By-CNX">
+            <connections>
+                <outlet property="delegate" destination="-1" id="79U-37-NeV"/>
+                <outlet property="searchBar" destination="qdQ-F9-evW" id="wtd-8U-WYf"/>
+                <outlet property="searchContentsController" destination="-1" id="U3o-w8-Pn0"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="RUQ-iW-Zja"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="rTs-aL-Uik"/>
+            </connections>
+        </searchDisplayController>
+    </objects>
+    <classes>
+        <class className="YDViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/YDViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mTableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="searchBar" candidateClass="UISearchBar"/>
+            </relationships>
+        </class>
+    </classes>
+</document>

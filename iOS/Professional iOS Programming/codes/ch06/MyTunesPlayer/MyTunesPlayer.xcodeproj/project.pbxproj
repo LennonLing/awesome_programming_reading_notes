@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165BA62517F888F600662CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA62417F888F600662CD9 /* Foundation.framework */; };
+		165BA62717F888F600662CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA62617F888F600662CD9 /* CoreGraphics.framework */; };
+		165BA62917F888F600662CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA62817F888F600662CD9 /* UIKit.framework */; };
+		165BA62F17F888F600662CD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 165BA62D17F888F600662CD9 /* InfoPlist.strings */; };
+		165BA63117F888F600662CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BA63017F888F600662CD9 /* main.m */; };
+		165BA63817F888F600662CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165BA63617F888F600662CD9 /* Main.storyboard */; };
+		165BA63D17F888F600662CD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165BA63C17F888F600662CD9 /* Images.xcassets */; };
+		165BA64417F888F600662CD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA64317F888F600662CD9 /* XCTest.framework */; };
+		165BA64517F888F600662CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA62417F888F600662CD9 /* Foundation.framework */; };
+		165BA64617F888F600662CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA62817F888F600662CD9 /* UIKit.framework */; };
+		165BA64E17F888F600662CD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 165BA64C17F888F600662CD9 /* InfoPlist.strings */; };
+		165BA65017F888F600662CD9 /* MyTunesPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BA64F17F888F600662CD9 /* MyTunesPlayerTests.m */; };
+		165BA66017F8890C00662CD9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BA65917F8890C00662CD9 /* Icon.png */; };
+		165BA66117F8890C00662CD9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BA65A17F8890C00662CD9 /* Icon@2x.png */; };
+		165BA66217F8890C00662CD9 /* YDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BA65C17F8890C00662CD9 /* YDAppDelegate.m */; };
+		165BA66317F8890C00662CD9 /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BA65E17F8890C00662CD9 /* YDViewController.m */; };
+		165BA66417F8890C00662CD9 /* YDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165BA65F17F8890C00662CD9 /* YDViewController.xib */; };
+		165BA66617F8891800662CD9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BA66517F8891800662CD9 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		165BA64717F888F600662CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165BA61917F888F600662CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165BA62017F888F600662CD9;
+			remoteInfo = MyTunesPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		165BA62117F888F600662CD9 /* MyTunesPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTunesPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165BA62417F888F600662CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		165BA62617F888F600662CD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		165BA62817F888F600662CD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		165BA62C17F888F600662CD9 /* MyTunesPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTunesPlayer-Info.plist"; sourceTree = "<group>"; };
+		165BA62E17F888F600662CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		165BA63017F888F600662CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		165BA63217F888F600662CD9 /* MyTunesPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTunesPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		165BA63717F888F600662CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		165BA63C17F888F600662CD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		165BA64217F888F600662CD9 /* MyTunesPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTunesPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165BA64317F888F600662CD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		165BA64B17F888F600662CD9 /* MyTunesPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTunesPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		165BA64D17F888F600662CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		165BA64F17F888F600662CD9 /* MyTunesPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTunesPlayerTests.m; sourceTree = "<group>"; };
+		165BA65917F8890C00662CD9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		165BA65A17F8890C00662CD9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		165BA65B17F8890C00662CD9 /* YDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAppDelegate.h; sourceTree = "<group>"; };
+		165BA65C17F8890C00662CD9 /* YDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAppDelegate.m; sourceTree = "<group>"; };
+		165BA65D17F8890C00662CD9 /* YDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
+		165BA65E17F8890C00662CD9 /* YDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
+		165BA65F17F8890C00662CD9 /* YDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDViewController.xib; sourceTree = "<group>"; };
+		165BA66517F8891800662CD9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165BA61E17F888F600662CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BA66617F8891800662CD9 /* MediaPlayer.framework in Frameworks */,
+				165BA62717F888F600662CD9 /* CoreGraphics.framework in Frameworks */,
+				165BA62917F888F600662CD9 /* UIKit.framework in Frameworks */,
+				165BA62517F888F600662CD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BA63F17F888F600662CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BA64417F888F600662CD9 /* XCTest.framework in Frameworks */,
+				165BA64617F888F600662CD9 /* UIKit.framework in Frameworks */,
+				165BA64517F888F600662CD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165BA61817F888F600662CD9 = {
+			isa = PBXGroup;
+			children = (
+				165BA62A17F888F600662CD9 /* MyTunesPlayer */,
+				165BA64917F888F600662CD9 /* MyTunesPlayerTests */,
+				165BA62317F888F600662CD9 /* Frameworks */,
+				165BA62217F888F600662CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		165BA62217F888F600662CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165BA62117F888F600662CD9 /* MyTunesPlayer.app */,
+				165BA64217F888F600662CD9 /* MyTunesPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165BA62317F888F600662CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				165BA66517F8891800662CD9 /* MediaPlayer.framework */,
+				165BA62417F888F600662CD9 /* Foundation.framework */,
+				165BA62617F888F600662CD9 /* CoreGraphics.framework */,
+				165BA62817F888F600662CD9 /* UIKit.framework */,
+				165BA64317F888F600662CD9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		165BA62A17F888F600662CD9 /* MyTunesPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				165BA65917F8890C00662CD9 /* Icon.png */,
+				165BA65A17F8890C00662CD9 /* Icon@2x.png */,
+				165BA65B17F8890C00662CD9 /* YDAppDelegate.h */,
+				165BA65C17F8890C00662CD9 /* YDAppDelegate.m */,
+				165BA65D17F8890C00662CD9 /* YDViewController.h */,
+				165BA65E17F8890C00662CD9 /* YDViewController.m */,
+				165BA65F17F8890C00662CD9 /* YDViewController.xib */,
+				165BA63617F888F600662CD9 /* Main.storyboard */,
+				165BA63C17F888F600662CD9 /* Images.xcassets */,
+				165BA62B17F888F600662CD9 /* Supporting Files */,
+			);
+			path = MyTunesPlayer;
+			sourceTree = "<group>";
+		};
+		165BA62B17F888F600662CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				165BA62C17F888F600662CD9 /* MyTunesPlayer-Info.plist */,
+				165BA62D17F888F600662CD9 /* InfoPlist.strings */,
+				165BA63017F888F600662CD9 /* main.m */,
+				165BA63217F888F600662CD9 /* MyTunesPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		165BA64917F888F600662CD9 /* MyTunesPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				165BA64F17F888F600662CD9 /* MyTunesPlayerTests.m */,
+				165BA64A17F888F600662CD9 /* Supporting Files */,
+			);
+			path = MyTunesPlayerTests;
+			sourceTree = "<group>";
+		};
+		165BA64A17F888F600662CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				165BA64B17F888F600662CD9 /* MyTunesPlayerTests-Info.plist */,
+				165BA64C17F888F600662CD9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165BA62017F888F600662CD9 /* MyTunesPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165BA65317F888F600662CD9 /* Build configuration list for PBXNativeTarget "MyTunesPlayer" */;
+			buildPhases = (
+				165BA61D17F888F600662CD9 /* Sources */,
+				165BA61E17F888F600662CD9 /* Frameworks */,
+				165BA61F17F888F600662CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTunesPlayer;
+			productName = MyTunesPlayer;
+			productReference = 165BA62117F888F600662CD9 /* MyTunesPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		165BA64117F888F600662CD9 /* MyTunesPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165BA65617F888F600662CD9 /* Build configuration list for PBXNativeTarget "MyTunesPlayerTests" */;
+			buildPhases = (
+				165BA63E17F888F600662CD9 /* Sources */,
+				165BA63F17F888F600662CD9 /* Frameworks */,
+				165BA64017F888F600662CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165BA64817F888F600662CD9 /* PBXTargetDependency */,
+			);
+			name = MyTunesPlayerTests;
+			productName = MyTunesPlayerTests;
+			productReference = 165BA64217F888F600662CD9 /* MyTunesPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		165BA61917F888F600662CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = YourDeveloper;
+				TargetAttributes = {
+					165BA64117F888F600662CD9 = {
+						TestTargetID = 165BA62017F888F600662CD9;
+					};
+				};
+			};
+			buildConfigurationList = 165BA61C17F888F600662CD9 /* Build configuration list for PBXProject "MyTunesPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 165BA61817F888F600662CD9;
+			productRefGroup = 165BA62217F888F600662CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165BA62017F888F600662CD9 /* MyTunesPlayer */,
+				165BA64117F888F600662CD9 /* MyTunesPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165BA61F17F888F600662CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BA66017F8890C00662CD9 /* Icon.png in Resources */,
+				165BA63D17F888F600662CD9 /* Images.xcassets in Resources */,
+				165BA62F17F888F600662CD9 /* InfoPlist.strings in Resources */,
+				165BA63817F888F600662CD9 /* Main.storyboard in Resources */,
+				165BA66117F8890C00662CD9 /* Icon@2x.png in Resources */,
+				165BA66417F8890C00662CD9 /* YDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BA64017F888F600662CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BA64E17F888F600662CD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165BA61D17F888F600662CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BA63117F888F600662CD9 /* main.m in Sources */,
+				165BA66317F8890C00662CD9 /* YDViewController.m in Sources */,
+				165BA66217F8890C00662CD9 /* YDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BA63E17F888F600662CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BA65017F888F600662CD9 /* MyTunesPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165BA64817F888F600662CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165BA62017F888F600662CD9 /* MyTunesPlayer */;
+			targetProxy = 165BA64717F888F600662CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		165BA62D17F888F600662CD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165BA62E17F888F600662CD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		165BA63617F888F600662CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165BA63717F888F600662CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		165BA64C17F888F600662CD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165BA64D17F888F600662CD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165BA65117F888F600662CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		165BA65217F888F600662CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165BA65417F888F600662CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTunesPlayer/MyTunesPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MyTunesPlayer/MyTunesPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		165BA65517F888F600662CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTunesPlayer/MyTunesPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MyTunesPlayer/MyTunesPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		165BA65717F888F600662CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyTunesPlayer.app/MyTunesPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTunesPlayer/MyTunesPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyTunesPlayerTests/MyTunesPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		165BA65817F888F600662CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyTunesPlayer.app/MyTunesPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTunesPlayer/MyTunesPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MyTunesPlayerTests/MyTunesPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		165BA61C17F888F600662CD9 /* Build configuration list for PBXProject "MyTunesPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BA65117F888F600662CD9 /* Debug */,
+				165BA65217F888F600662CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165BA65317F888F600662CD9 /* Build configuration list for PBXNativeTarget "MyTunesPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BA65417F888F600662CD9 /* Debug */,
+				165BA65517F888F600662CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		165BA65617F888F600662CD9 /* Build configuration list for PBXNativeTarget "MyTunesPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BA65717F888F600662CD9 /* Debug */,
+				165BA65817F888F600662CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 165BA61917F888F600662CD9 /* Project object */;
+}

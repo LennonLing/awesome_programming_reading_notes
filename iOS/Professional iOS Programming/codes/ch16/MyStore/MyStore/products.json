@@ -1,0 +1,38 @@
+{
+    "applications": {
+        "application": [
+                        {
+                        "name": "MyStore",
+                        "products": {
+                        "product": [
+                                    {
+                                    "product_identifier": "net.yourdeveloper.MyStore.cons1",
+                                    "product_name": "Consumable 1",
+                                    "product_type": "Consumable"
+                                    },
+                                    {
+                                    "product_identifier": "net.yourdeveloper.MyStore.cons2",
+                                    "product_name": "Consumable 2",
+                                    "product_type": "Consumable"
+                                    },
+                                     {
+                                    "product_identifier": "net.yourdeveloper.MyStore.upgrade",
+                                    "product_name": "Upgrade to pro",
+                                    "product_type": "Non-Consumable"
+                                    }
+                                    ]
+                        }
+                        },
+                        {
+                        "name": "FX",
+                        "products": {
+                        "product": {
+                        "product_identifier": "net.yourdeveloper.FX.upgrade",
+                        "product_name": "Upgrade to Pro",
+                        "product_type": "Non consumable"
+                        }
+                        }
+                        }
+                        ]
+    }
+}

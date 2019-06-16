@@ -1,0 +1,38 @@
+//
+//  YDClusterAnnotationView.m
+    //  This file is part of source code lessons that are related to the book
+    //  Title: Professional IOS Programming
+    //  Publisher: John Wiley & Sons Inc
+    //  ISBN 978-1-118-66113-0
+    //  Author: Peter van de Put
+    //  Company: YourDeveloper Mobile Solutions
+    //  Contact the author: www.yourdeveloper.net | info@yourdeveloper.net
+    //  Copyright (c) 2013 with the author and publisher. All rights reserved.
+    //
+
+#import "YDClusterAnnotationView.h"
+
+@implementation YDClusterAnnotationView
+@synthesize coordinate;
+- (id) initWithAnnotation:(id<MKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];
+    if ( self )
+        {
+        clusterlabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 32, 16)];
+        clusterlabel.textColor = [UIColor whiteColor];
+        clusterlabel.backgroundColor = [UIColor clearColor];
+        clusterlabel.font = [UIFont boldSystemFontOfSize:11];
+        clusterlabel.textAlignment = NSTextAlignmentCenter;
+        [self addSubview:clusterlabel];
+        }
+    return self;
+}
+
+- (void) setClusterAnnotationText:(NSString *)text
+{
+    clusterlabel.text = text;
+}
+
+
+@end

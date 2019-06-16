@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164D3CAD18001BE900369013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D3CAC18001BE900369013 /* Foundation.framework */; };
+		164D3CAF18001BE900369013 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D3CAE18001BE900369013 /* CoreGraphics.framework */; };
+		164D3CB118001BE900369013 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D3CB018001BE900369013 /* UIKit.framework */; };
+		164D3CB718001BE900369013 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CB518001BE900369013 /* InfoPlist.strings */; };
+		164D3CB918001BE900369013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D3CB818001BE900369013 /* main.m */; };
+		164D3CC018001BE900369013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CBE18001BE900369013 /* Main.storyboard */; };
+		164D3CC518001BE900369013 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CC418001BE900369013 /* Images.xcassets */; };
+		164D3CCC18001BE900369013 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D3CCB18001BE900369013 /* XCTest.framework */; };
+		164D3CCD18001BE900369013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D3CAC18001BE900369013 /* Foundation.framework */; };
+		164D3CCE18001BE900369013 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D3CB018001BE900369013 /* UIKit.framework */; };
+		164D3CD618001BE900369013 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CD418001BE900369013 /* InfoPlist.strings */; };
+		164D3CD818001BE900369013 /* SoapRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D3CD718001BE900369013 /* SoapRequestTests.m */; };
+		164D3CEA18001BFF00369013 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CE118001BFF00369013 /* Icon.png */; };
+		164D3CEB18001BFF00369013 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CE218001BFF00369013 /* Icon@2x.png */; };
+		164D3CEC18001BFF00369013 /* URLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D3CE418001BFF00369013 /* URLRequest.m */; };
+		164D3CED18001BFF00369013 /* YDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D3CE618001BFF00369013 /* YDAppDelegate.m */; };
+		164D3CEE18001BFF00369013 /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D3CE818001BFF00369013 /* YDViewController.m */; };
+		164D3CEF18001BFF00369013 /* YDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164D3CE918001BFF00369013 /* YDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		164D3CCF18001BE900369013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164D3CA118001BE900369013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164D3CA818001BE900369013;
+			remoteInfo = SoapRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		164D3CA918001BE900369013 /* SoapRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoapRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		164D3CAC18001BE900369013 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		164D3CAE18001BE900369013 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		164D3CB018001BE900369013 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		164D3CB418001BE900369013 /* SoapRequest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapRequest-Info.plist"; sourceTree = "<group>"; };
+		164D3CB618001BE900369013 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		164D3CB818001BE900369013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		164D3CBA18001BE900369013 /* SoapRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoapRequest-Prefix.pch"; sourceTree = "<group>"; };
+		164D3CBF18001BE900369013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		164D3CC418001BE900369013 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		164D3CCA18001BE900369013 /* SoapRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoapRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164D3CCB18001BE900369013 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		164D3CD318001BE900369013 /* SoapRequestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapRequestTests-Info.plist"; sourceTree = "<group>"; };
+		164D3CD518001BE900369013 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		164D3CD718001BE900369013 /* SoapRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapRequestTests.m; sourceTree = "<group>"; };
+		164D3CE118001BFF00369013 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		164D3CE218001BFF00369013 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		164D3CE318001BFF00369013 /* URLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequest.h; sourceTree = "<group>"; };
+		164D3CE418001BFF00369013 /* URLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequest.m; sourceTree = "<group>"; };
+		164D3CE518001BFF00369013 /* YDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAppDelegate.h; sourceTree = "<group>"; };
+		164D3CE618001BFF00369013 /* YDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAppDelegate.m; sourceTree = "<group>"; };
+		164D3CE718001BFF00369013 /* YDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
+		164D3CE818001BFF00369013 /* YDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
+		164D3CE918001BFF00369013 /* YDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164D3CA618001BE900369013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D3CAF18001BE900369013 /* CoreGraphics.framework in Frameworks */,
+				164D3CB118001BE900369013 /* UIKit.framework in Frameworks */,
+				164D3CAD18001BE900369013 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164D3CC718001BE900369013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D3CCC18001BE900369013 /* XCTest.framework in Frameworks */,
+				164D3CCE18001BE900369013 /* UIKit.framework in Frameworks */,
+				164D3CCD18001BE900369013 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		164D3CA018001BE900369013 = {
+			isa = PBXGroup;
+			children = (
+				164D3CB218001BE900369013 /* SoapRequest */,
+				164D3CD118001BE900369013 /* SoapRequestTests */,
+				164D3CAB18001BE900369013 /* Frameworks */,
+				164D3CAA18001BE900369013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		164D3CAA18001BE900369013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				164D3CA918001BE900369013 /* SoapRequest.app */,
+				164D3CCA18001BE900369013 /* SoapRequestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		164D3CAB18001BE900369013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				164D3CAC18001BE900369013 /* Foundation.framework */,
+				164D3CAE18001BE900369013 /* CoreGraphics.framework */,
+				164D3CB018001BE900369013 /* UIKit.framework */,
+				164D3CCB18001BE900369013 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		164D3CB218001BE900369013 /* SoapRequest */ = {
+			isa = PBXGroup;
+			children = (
+				164D3CE118001BFF00369013 /* Icon.png */,
+				164D3CE218001BFF00369013 /* Icon@2x.png */,
+				164D3CE318001BFF00369013 /* URLRequest.h */,
+				164D3CE418001BFF00369013 /* URLRequest.m */,
+				164D3CE518001BFF00369013 /* YDAppDelegate.h */,
+				164D3CE618001BFF00369013 /* YDAppDelegate.m */,
+				164D3CE718001BFF00369013 /* YDViewController.h */,
+				164D3CE818001BFF00369013 /* YDViewController.m */,
+				164D3CE918001BFF00369013 /* YDViewController.xib */,
+				164D3CBE18001BE900369013 /* Main.storyboard */,
+				164D3CC418001BE900369013 /* Images.xcassets */,
+				164D3CB318001BE900369013 /* Supporting Files */,
+			);
+			path = SoapRequest;
+			sourceTree = "<group>";
+		};
+		164D3CB318001BE900369013 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				164D3CB418001BE900369013 /* SoapRequest-Info.plist */,
+				164D3CB518001BE900369013 /* InfoPlist.strings */,
+				164D3CB818001BE900369013 /* main.m */,
+				164D3CBA18001BE900369013 /* SoapRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		164D3CD118001BE900369013 /* SoapRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				164D3CD718001BE900369013 /* SoapRequestTests.m */,
+				164D3CD218001BE900369013 /* Supporting Files */,
+			);
+			path = SoapRequestTests;
+			sourceTree = "<group>";
+		};
+		164D3CD218001BE900369013 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				164D3CD318001BE900369013 /* SoapRequestTests-Info.plist */,
+				164D3CD418001BE900369013 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		164D3CA818001BE900369013 /* SoapRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164D3CDB18001BE900369013 /* Build configuration list for PBXNativeTarget "SoapRequest" */;
+			buildPhases = (
+				164D3CA518001BE900369013 /* Sources */,
+				164D3CA618001BE900369013 /* Frameworks */,
+				164D3CA718001BE900369013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoapRequest;
+			productName = SoapRequest;
+			productReference = 164D3CA918001BE900369013 /* SoapRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		164D3CC918001BE900369013 /* SoapRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164D3CDE18001BE900369013 /* Build configuration list for PBXNativeTarget "SoapRequestTests" */;
+			buildPhases = (
+				164D3CC618001BE900369013 /* Sources */,
+				164D3CC718001BE900369013 /* Frameworks */,
+				164D3CC818001BE900369013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				164D3CD018001BE900369013 /* PBXTargetDependency */,
+			);
+			name = SoapRequestTests;
+			productName = SoapRequestTests;
+			productReference = 164D3CCA18001BE900369013 /* SoapRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		164D3CA118001BE900369013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = YourDeveloper;
+				TargetAttributes = {
+					164D3CC918001BE900369013 = {
+						TestTargetID = 164D3CA818001BE900369013;
+					};
+				};
+			};
+			buildConfigurationList = 164D3CA418001BE900369013 /* Build configuration list for PBXProject "SoapRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 164D3CA018001BE900369013;
+			productRefGroup = 164D3CAA18001BE900369013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164D3CA818001BE900369013 /* SoapRequest */,
+				164D3CC918001BE900369013 /* SoapRequestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164D3CA718001BE900369013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D3CEA18001BFF00369013 /* Icon.png in Resources */,
+				164D3CC518001BE900369013 /* Images.xcassets in Resources */,
+				164D3CB718001BE900369013 /* InfoPlist.strings in Resources */,
+				164D3CC018001BE900369013 /* Main.storyboard in Resources */,
+				164D3CEB18001BFF00369013 /* Icon@2x.png in Resources */,
+				164D3CEF18001BFF00369013 /* YDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164D3CC818001BE900369013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D3CD618001BE900369013 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164D3CA518001BE900369013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D3CB918001BE900369013 /* main.m in Sources */,
+				164D3CEE18001BFF00369013 /* YDViewController.m in Sources */,
+				164D3CED18001BFF00369013 /* YDAppDelegate.m in Sources */,
+				164D3CEC18001BFF00369013 /* URLRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164D3CC618001BE900369013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D3CD818001BE900369013 /* SoapRequestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		164D3CD018001BE900369013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164D3CA818001BE900369013 /* SoapRequest */;
+			targetProxy = 164D3CCF18001BE900369013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		164D3CB518001BE900369013 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164D3CB618001BE900369013 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		164D3CBE18001BE900369013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164D3CBF18001BE900369013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		164D3CD418001BE900369013 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164D3CD518001BE900369013 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		164D3CD918001BE900369013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		164D3CDA18001BE900369013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		164D3CDC18001BE900369013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapRequest/SoapRequest-Prefix.pch";
+				INFOPLIST_FILE = "SoapRequest/SoapRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		164D3CDD18001BE900369013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapRequest/SoapRequest-Prefix.pch";
+				INFOPLIST_FILE = "SoapRequest/SoapRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		164D3CDF18001BE900369013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoapRequest.app/SoapRequest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapRequest/SoapRequest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoapRequestTests/SoapRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		164D3CE018001BE900369013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoapRequest.app/SoapRequest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapRequest/SoapRequest-Prefix.pch";
+				INFOPLIST_FILE = "SoapRequestTests/SoapRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164D3CA418001BE900369013 /* Build configuration list for PBXProject "SoapRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164D3CD918001BE900369013 /* Debug */,
+				164D3CDA18001BE900369013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164D3CDB18001BE900369013 /* Build configuration list for PBXNativeTarget "SoapRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164D3CDC18001BE900369013 /* Debug */,
+				164D3CDD18001BE900369013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		164D3CDE18001BE900369013 /* Build configuration list for PBXNativeTarget "SoapRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164D3CDF18001BE900369013 /* Debug */,
+				164D3CE018001BE900369013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 164D3CA118001BE900369013 /* Project object */;
+}

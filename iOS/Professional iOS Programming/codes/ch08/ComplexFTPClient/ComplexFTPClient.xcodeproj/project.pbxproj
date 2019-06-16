@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16EC75221800249B006C51C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC75211800249B006C51C9 /* Foundation.framework */; };
+		16EC75241800249B006C51C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC75231800249B006C51C9 /* CoreGraphics.framework */; };
+		16EC75261800249B006C51C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC75251800249B006C51C9 /* UIKit.framework */; };
+		16EC752C1800249B006C51C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16EC752A1800249B006C51C9 /* InfoPlist.strings */; };
+		16EC752E1800249B006C51C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC752D1800249B006C51C9 /* main.m */; };
+		16EC75351800249B006C51C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EC75331800249B006C51C9 /* Main.storyboard */; };
+		16EC753A1800249B006C51C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EC75391800249B006C51C9 /* Images.xcassets */; };
+		16EC75411800249B006C51C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC75401800249B006C51C9 /* XCTest.framework */; };
+		16EC75421800249B006C51C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC75211800249B006C51C9 /* Foundation.framework */; };
+		16EC75431800249B006C51C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC75251800249B006C51C9 /* UIKit.framework */; };
+		16EC754B1800249B006C51C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16EC75491800249B006C51C9 /* InfoPlist.strings */; };
+		16EC754D1800249B006C51C9 /* ComplexFTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC754C1800249B006C51C9 /* ComplexFTPClientTests.m */; };
+		16EC7557180024A9006C51C9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EC7556180024A9006C51C9 /* CFNetwork.framework */; };
+		16EC755F180024BB006C51C9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16EC7558180024BB006C51C9 /* Icon@2x.png */; };
+		16EC7560180024BB006C51C9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16EC7559180024BB006C51C9 /* Icon.png */; };
+		16EC7561180024BB006C51C9 /* YDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC755B180024BB006C51C9 /* YDAppDelegate.m */; };
+		16EC7562180024BB006C51C9 /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC755D180024BB006C51C9 /* YDViewController.m */; };
+		16EC7563180024BB006C51C9 /* YDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16EC755E180024BB006C51C9 /* YDViewController.xib */; };
+		16EC7566180024C4006C51C9 /* YDFTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC7565180024C4006C51C9 /* YDFTPClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EC75441800249B006C51C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16EC75161800249B006C51C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16EC751D1800249B006C51C9;
+			remoteInfo = ComplexFTPClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EC751E1800249B006C51C9 /* ComplexFTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexFTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EC75211800249B006C51C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16EC75231800249B006C51C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16EC75251800249B006C51C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16EC75291800249B006C51C9 /* ComplexFTPClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComplexFTPClient-Info.plist"; sourceTree = "<group>"; };
+		16EC752B1800249B006C51C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16EC752D1800249B006C51C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16EC752F1800249B006C51C9 /* ComplexFTPClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComplexFTPClient-Prefix.pch"; sourceTree = "<group>"; };
+		16EC75341800249B006C51C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16EC75391800249B006C51C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16EC753F1800249B006C51C9 /* ComplexFTPClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplexFTPClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EC75401800249B006C51C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		16EC75481800249B006C51C9 /* ComplexFTPClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComplexFTPClientTests-Info.plist"; sourceTree = "<group>"; };
+		16EC754A1800249B006C51C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16EC754C1800249B006C51C9 /* ComplexFTPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplexFTPClientTests.m; sourceTree = "<group>"; };
+		16EC7556180024A9006C51C9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		16EC7558180024BB006C51C9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		16EC7559180024BB006C51C9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		16EC755A180024BB006C51C9 /* YDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAppDelegate.h; sourceTree = "<group>"; };
+		16EC755B180024BB006C51C9 /* YDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAppDelegate.m; sourceTree = "<group>"; };
+		16EC755C180024BB006C51C9 /* YDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
+		16EC755D180024BB006C51C9 /* YDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
+		16EC755E180024BB006C51C9 /* YDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDViewController.xib; sourceTree = "<group>"; };
+		16EC7564180024C4006C51C9 /* YDFTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFTPClient.h; sourceTree = "<group>"; };
+		16EC7565180024C4006C51C9 /* YDFTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDFTPClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EC751B1800249B006C51C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC7557180024A9006C51C9 /* CFNetwork.framework in Frameworks */,
+				16EC75241800249B006C51C9 /* CoreGraphics.framework in Frameworks */,
+				16EC75261800249B006C51C9 /* UIKit.framework in Frameworks */,
+				16EC75221800249B006C51C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EC753C1800249B006C51C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC75411800249B006C51C9 /* XCTest.framework in Frameworks */,
+				16EC75431800249B006C51C9 /* UIKit.framework in Frameworks */,
+				16EC75421800249B006C51C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EC75151800249B006C51C9 = {
+			isa = PBXGroup;
+			children = (
+				16EC75271800249B006C51C9 /* ComplexFTPClient */,
+				16EC75461800249B006C51C9 /* ComplexFTPClientTests */,
+				16EC75201800249B006C51C9 /* Frameworks */,
+				16EC751F1800249B006C51C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16EC751F1800249B006C51C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EC751E1800249B006C51C9 /* ComplexFTPClient.app */,
+				16EC753F1800249B006C51C9 /* ComplexFTPClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16EC75201800249B006C51C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16EC7556180024A9006C51C9 /* CFNetwork.framework */,
+				16EC75211800249B006C51C9 /* Foundation.framework */,
+				16EC75231800249B006C51C9 /* CoreGraphics.framework */,
+				16EC75251800249B006C51C9 /* UIKit.framework */,
+				16EC75401800249B006C51C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16EC75271800249B006C51C9 /* ComplexFTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				16EC7564180024C4006C51C9 /* YDFTPClient.h */,
+				16EC7565180024C4006C51C9 /* YDFTPClient.m */,
+				16EC7558180024BB006C51C9 /* Icon@2x.png */,
+				16EC7559180024BB006C51C9 /* Icon.png */,
+				16EC755A180024BB006C51C9 /* YDAppDelegate.h */,
+				16EC755B180024BB006C51C9 /* YDAppDelegate.m */,
+				16EC755C180024BB006C51C9 /* YDViewController.h */,
+				16EC755D180024BB006C51C9 /* YDViewController.m */,
+				16EC755E180024BB006C51C9 /* YDViewController.xib */,
+				16EC75331800249B006C51C9 /* Main.storyboard */,
+				16EC75391800249B006C51C9 /* Images.xcassets */,
+				16EC75281800249B006C51C9 /* Supporting Files */,
+			);
+			path = ComplexFTPClient;
+			sourceTree = "<group>";
+		};
+		16EC75281800249B006C51C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EC75291800249B006C51C9 /* ComplexFTPClient-Info.plist */,
+				16EC752A1800249B006C51C9 /* InfoPlist.strings */,
+				16EC752D1800249B006C51C9 /* main.m */,
+				16EC752F1800249B006C51C9 /* ComplexFTPClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16EC75461800249B006C51C9 /* ComplexFTPClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				16EC754C1800249B006C51C9 /* ComplexFTPClientTests.m */,
+				16EC75471800249B006C51C9 /* Supporting Files */,
+			);
+			path = ComplexFTPClientTests;
+			sourceTree = "<group>";
+		};
+		16EC75471800249B006C51C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EC75481800249B006C51C9 /* ComplexFTPClientTests-Info.plist */,
+				16EC75491800249B006C51C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EC751D1800249B006C51C9 /* ComplexFTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EC75501800249B006C51C9 /* Build configuration list for PBXNativeTarget "ComplexFTPClient" */;
+			buildPhases = (
+				16EC751A1800249B006C51C9 /* Sources */,
+				16EC751B1800249B006C51C9 /* Frameworks */,
+				16EC751C1800249B006C51C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplexFTPClient;
+			productName = ComplexFTPClient;
+			productReference = 16EC751E1800249B006C51C9 /* ComplexFTPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16EC753E1800249B006C51C9 /* ComplexFTPClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EC75531800249B006C51C9 /* Build configuration list for PBXNativeTarget "ComplexFTPClientTests" */;
+			buildPhases = (
+				16EC753B1800249B006C51C9 /* Sources */,
+				16EC753C1800249B006C51C9 /* Frameworks */,
+				16EC753D1800249B006C51C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16EC75451800249B006C51C9 /* PBXTargetDependency */,
+			);
+			name = ComplexFTPClientTests;
+			productName = ComplexFTPClientTests;
+			productReference = 16EC753F1800249B006C51C9 /* ComplexFTPClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EC75161800249B006C51C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = YourDeveloper;
+				TargetAttributes = {
+					16EC753E1800249B006C51C9 = {
+						TestTargetID = 16EC751D1800249B006C51C9;
+					};
+				};
+			};
+			buildConfigurationList = 16EC75191800249B006C51C9 /* Build configuration list for PBXProject "ComplexFTPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16EC75151800249B006C51C9;
+			productRefGroup = 16EC751F1800249B006C51C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16EC751D1800249B006C51C9 /* ComplexFTPClient */,
+				16EC753E1800249B006C51C9 /* ComplexFTPClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16EC751C1800249B006C51C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC753A1800249B006C51C9 /* Images.xcassets in Resources */,
+				16EC755F180024BB006C51C9 /* Icon@2x.png in Resources */,
+				16EC7560180024BB006C51C9 /* Icon.png in Resources */,
+				16EC752C1800249B006C51C9 /* InfoPlist.strings in Resources */,
+				16EC75351800249B006C51C9 /* Main.storyboard in Resources */,
+				16EC7563180024BB006C51C9 /* YDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EC753D1800249B006C51C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC754B1800249B006C51C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16EC751A1800249B006C51C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC752E1800249B006C51C9 /* main.m in Sources */,
+				16EC7562180024BB006C51C9 /* YDViewController.m in Sources */,
+				16EC7566180024C4006C51C9 /* YDFTPClient.m in Sources */,
+				16EC7561180024BB006C51C9 /* YDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EC753B1800249B006C51C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC754D1800249B006C51C9 /* ComplexFTPClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16EC75451800249B006C51C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16EC751D1800249B006C51C9 /* ComplexFTPClient */;
+			targetProxy = 16EC75441800249B006C51C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16EC752A1800249B006C51C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EC752B1800249B006C51C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16EC75331800249B006C51C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EC75341800249B006C51C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16EC75491800249B006C51C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EC754A1800249B006C51C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16EC754E1800249B006C51C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16EC754F1800249B006C51C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16EC75511800249B006C51C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplexFTPClient/ComplexFTPClient-Prefix.pch";
+				INFOPLIST_FILE = "ComplexFTPClient/ComplexFTPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16EC75521800249B006C51C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplexFTPClient/ComplexFTPClient-Prefix.pch";
+				INFOPLIST_FILE = "ComplexFTPClient/ComplexFTPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16EC75541800249B006C51C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ComplexFTPClient.app/ComplexFTPClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplexFTPClient/ComplexFTPClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComplexFTPClientTests/ComplexFTPClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		16EC75551800249B006C51C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ComplexFTPClient.app/ComplexFTPClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplexFTPClient/ComplexFTPClient-Prefix.pch";
+				INFOPLIST_FILE = "ComplexFTPClientTests/ComplexFTPClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EC75191800249B006C51C9 /* Build configuration list for PBXProject "ComplexFTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC754E1800249B006C51C9 /* Debug */,
+				16EC754F1800249B006C51C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EC75501800249B006C51C9 /* Build configuration list for PBXNativeTarget "ComplexFTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC75511800249B006C51C9 /* Debug */,
+				16EC75521800249B006C51C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16EC75531800249B006C51C9 /* Build configuration list for PBXNativeTarget "ComplexFTPClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC75541800249B006C51C9 /* Debug */,
+				16EC75551800249B006C51C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16EC75161800249B006C51C9 /* Project object */;
+}
